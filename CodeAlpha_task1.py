@@ -27,5 +27,6 @@ df = pd.DataFrame({"Quote": quotes, "Author": authors})
 
 # Saving dataset
 df.to_csv("quotes.csv", index=False)
-print("Quotes dataset ban gaya. Total records:", len(df))
+print("Quotes dataset done. Total records:", len(df))
+
 print(df.head())
